@@ -1,0 +1,315 @@
+body, html {
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.cor-dourada {
+    background-color: #daa520;
+}
+
+.text-number {
+    font-size: 1.2rem; 
+}
+
+.logo-img {
+    width: 40%;
+    max-width: 100%; 
+}
+
+.logo-whatsapp {
+    width: 10%;
+}
+
+.email-text {
+    font-size: 12px; 
+    color: #f8f9fa; 
+}
+
+.emailogo {
+    width: 12px;
+}
+
+.navbar-text {
+    font-size: 1.5rem; 
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+.list-group-item2 {
+    padding-left: 10px;
+    padding-top: 3px;
+    background-color: #c9a13d;
+}
+
+.quadros {
+    border: 5px solid #daa520;
+    box-sizing: border-box;
+    background-color: #daa520;
+    color: rgb(10, 10, 59);
+}
+
+.titulod {
+    background-color: #e0aa22;
+}
+
+.bg-logo {
+    background-color: #daa520;
+}
+
+.text-indent {
+    text-indent: 20px; 
+    text-align: justify;
+    color: #ffffff;
+}
+
+.sobre {
+    position: relative; 
+    overflow: hidden;
+}
+
+.sobre::before {
+    content: ""; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('fundo_test.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.3; 
+    z-index: -1; 
+}
+
+.body-style {
+    background: linear-gradient(
+        rgba(10, 10, 66, 0.9), 
+        rgba(10, 10, 66, 0.5) 
+    );
+}
+
+.btn-custom {
+    background-color: green; 
+    color: white; 
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none; 
+    border-radius: 0.25rem; 
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: darkgreen; 
+}
+
+.logo-fim {
+    width: 75px;
+}
+/* Media Queries */
+
+@media (max-width: 382px) {
+    .logo-img {
+        width: 100%;
+    }
+    
+    .navbar-text {
+        font-size: 0.5rem;
+    }
+
+    .email-text {
+        font-size: 6px;
+    }
+
+    .text-indent {
+        font-size: 0.5rem;
+    }
+
+    .btn-custom {
+        font-size: 0.42rem;
+        padding: 0.1rem 0.1rem;
+    }
+
+    .text-number {
+        font-size: 0.42rem; 
+    }
+
+    .logo-whatsapp {
+        width: 7%;
+    }
+    .list-group-item2 {
+        font-size: 0.5rem;
+    }
+    .titulod {
+        font-size: 0.7rem;
+    }
+    .logo-fim {
+        width:45px;
+    }
+    .numero-fim {
+        font-size: 12px;
+    }
+    .areatuacao {
+        font-size: 1.1rem;
+    }
+    .bg-logo {
+        width: 25%;
+    }
+}
+
+@media (min-width: 383px) and (max-width: 590px) {
+    .logo-img {
+        width: 100%;
+    }
+
+    .navbar-text {
+        font-size: 0.7rem;
+    }
+
+    .email-text {
+        font-size: 7px;
+    }
+
+    .text-indent {
+        font-size: 0.7rem;
+    }
+
+    .btn-custom {
+        font-size: 0.46rem;
+        padding: 0.1rem 0.1rem; 
+    }
+
+    .text-number {
+        font-size: 0.5rem; 
+    }
+
+    .logo-whatsapp {
+        width: 7.5%;
+    }
+    .list-group-item2 {
+        font-size: 0.6rem;
+    }
+    .titulod {
+        font-size: 0.8rem;
+    }
+    .areatuacao {
+        font-size: 1.3rem;
+    }
+    .bg-logo {
+        width: 20%;
+    }
+}
+
+@media (min-width: 591px) and (max-width: 790px) {
+    .logo-img {
+        width: 60%;
+    }
+
+    .navbar-text {
+        font-size: 1rem;
+    }
+
+    .email-text {
+        font-size: 7px;
+    }
+
+    .text-indent {
+        font-size: 1rem;
+    }
+
+    .btn-custom {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.5rem; 
+    }
+
+    .text-number {
+        font-size: 11px; 
+    }
+
+    .logo-whatsapp {
+        width: 8%;
+    }
+    .list-group-item2 {
+        font-size: 0.8rem;
+    }
+    .titulod {
+        font-size: 1.3rem;
+    }
+    .bg-logo {
+        height: 90%;
+    }
+    .areatuacao {
+        font-size: 28px;
+    }
+    
+}
+
+@media (min-width: 791px) and (max-width: 1200px) {
+    .logo-img {
+        width: 50%;
+    }
+
+    .navbar-text {
+        font-size: 1.5rem;
+    }
+
+    .email-text {
+        font-size: 14px;
+    }
+
+    .text-indent {
+        font-size: 1.1rem;
+    }
+
+    .btn-custom {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.5rem; 
+    }
+
+    .text-number {
+        font-size: 1rem; 
+    }
+
+    .logo-whatsapp {
+        width: 9%;
+    }
+    .bg-logo {
+        height: 90%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .logo-img {
+        width: 40%;
+    }
+
+    .navbar-text {
+        font-size: 1.8rem;
+    }
+
+    .email-text {
+        font-size: 14px;
+    }
+
+    .text-indent {
+        font-size: 1.2rem;
+    }
+
+    .btn-custom {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .text-number {
+        font-size: 1.2rem; 
+    }
+
+    .logo-whatsapp {
+        width: 10%;
+    }
+}
